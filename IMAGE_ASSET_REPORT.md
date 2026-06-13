@@ -2,7 +2,7 @@
 
 ## Detailed Image Table
 
-| Filename | Section | Recommended Width | Recommended Height | Aspect Ratio | Target WebP | Max WebP | Loading Priority | Lazy Load | Alt Text | Fold | Notes |
+| Filename | Section | Recommended Width | Recommended Height | Aspect Ratio | Target Size | Max Size | Loading Priority | Lazy Load | Alt Text | Fold | Notes |
 |---|---:|---:|---:|---|---:|---:|---|---|---|---|---|
 | hero-transmission-core.webp | Hero | 1800 | 1200 | 3:2 | 90 KB | 140 KB | High | No | Cutaway Torrqe precision transmission core showing gearing, bearing elements, and compact motion architecture. | Above | Use crisp cutaway render; opaque WebP preferred. |
 | usa-motion-systems-map.webp | Onshore the Transmission | 1400 | 760 | 35:19 | 60 KB | 90 KB | Medium | Yes unless immediately visible | Dotted map of the United States with the phrase America’s motion systems layer for critical machines. | Below/near | Can use transparency if map overlays paper texture. |
@@ -24,13 +24,16 @@
 | target-system-uav-payloads.webp | Target Systems | 960 | 620 | 48:31 | 80 KB | 110 KB | Low | Yes | UAV payload gimbal with Torrqe transmission fit points at yaw axis, pitch axis, and stabilized gimbal drive. | Below | Show payload/gimbal, not propeller motor. |
 | target-system-ev-subsystems.webp | Target Systems | 960 | 620 | 48:31 | 80 KB | 110 KB | Low | Yes | EV subsystem with Torrqe transmission fit points at steering actuator, wheel-end reduction, and corner module. | Below | Component-focused render works best. |
 | target-system-defense-motion.webp | Target Systems | 960 | 620 | 48:31 | 80 KB | 110 KB | Low | Yes | Defense motion assembly with Torrqe transmission fit points at traverse axis, elevation axis, and actuator transmission stage. | Below | Keep presentation public-facing and non-sensitive. |
+| torrqe-og-preview.png | SEO / Social Preview | 1200 | 630 | 1.91:1 | 150 KB | 300 KB | Metadata | No | Torrqe American precision transmissions for critical machines. | Not displayed | PNG used for Open Graph and Twitter preview at `images/torrqe-og-preview.png`; current local file measures 666 x 377 px and should be regenerated to 1200 x 630 when convenient. |
+| torrqe-favicon.png | Browser Favicon | 512 | 512 | 1:1 | 50 KB | 150 KB | Browser metadata | No | Torrqe favicon icon. | Browser icon | PNG referenced as favicon and Apple touch icon at `images/torrqe-favicon.png`; current local file measures 652 x 652 px. |
 
 ## Summary Table
 
 | Metric | Count / Weight |
 |---|---:|
-| Total number of image placeholders | 20 |
+| Total number of image placeholders / metadata assets | 22 |
 | Number above the fold | 1 |
 | Number below the fold | 19 |
-| Estimated total image weight if all target sizes are met | 1,240 KB |
-| Estimated total image weight if all maximum sizes are used | 1,875 KB |
+| Number used only for metadata/icons | 2 |
+| Estimated total image weight if all target sizes are met | 1,440 KB |
+| Estimated total image weight if all maximum sizes are used | 2,325 KB |

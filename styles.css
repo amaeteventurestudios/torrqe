@@ -131,6 +131,7 @@ p { font-size: 17px; line-height: 1.38; }
   border-right: 1px solid #393939;
   text-align: center;
 }
+.feature-grid .icon { color: var(--orange); }
 .feature-grid h2 { font-size: 14px; margin: 0 0 4px; }
 .feature-grid p { font-size: 12px; margin: 0; color: #d6d6d6; font-weight: 700; max-width: 190px; }
 
@@ -270,7 +271,12 @@ p { font-size: 17px; line-height: 1.38; }
 .target-card p span { color: #d8d8d8; display: block; }
 
 .process-grid { display: grid; grid-template-columns: 1fr auto 1fr auto 1fr; gap: 20px; align-items: center; }
-.process-grid article { text-align: left; }
+.process-grid article {
+  display: grid;
+  justify-items: center;
+  align-content: start;
+  text-align: left;
+}
 .process-grid article .process-icon,
 .process-grid article b {
   margin-left: auto;
@@ -314,7 +320,8 @@ p { font-size: 17px; line-height: 1.38; }
 
 .site-footer { background: #030303; color: white; padding: 42px clamp(18px, 4vw, 58px); }
 .footer-inner { display: grid; grid-template-columns: .9fr 1fr .9fr; gap: 32px; align-items: start; width: min(var(--max), 100%); margin: 0 auto; }
-.site-footer p { display: grid; gap: 3px; text-transform: uppercase; font-size: clamp(22px, 2.4vw, 40px); font-weight: 950; line-height: 1; text-align: center; }
+.site-footer p { display: grid; gap: 3px; text-transform: uppercase; font-size: clamp(22px, 2vw, 34px); font-weight: 950; line-height: 1; text-align: center; }
+.site-footer p span { white-space: nowrap; }
 .site-footer nav {
   display: grid;
   grid-template-columns: repeat(2, max-content);
@@ -432,6 +439,7 @@ p { font-size: 17px; line-height: 1.38; }
   h1, h2, h3, p, .section-lede, .core-copy, .hero-copy, .onshore p, .footer-inner, .role-list li, .founder, .team, .process, .target-card, .image-card, .flow-panel { text-align: center; }
   .cta-row, .social-row { justify-content: center; }
   .process h2 { white-space: normal; }
+  .site-footer p span { white-space: normal; }
   .flow-panel h3 { justify-content: center; gap: 6px; }
   .flow-panel h3 span { display: block; width: 100%; }
   .button { width: min(100%, 330px); }

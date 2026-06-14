@@ -5,9 +5,11 @@
 | Filename | Section | Recommended Width | Recommended Height | Aspect Ratio | Target Size | Max Size | Loading Priority | Lazy Load | Alt Text | Fold | Notes |
 |---|---:|---:|---:|---|---:|---:|---|---|---|---|---|
 | hero-transmission-core.webp | Hero | 1800 | 1200 | 3:2 | 90 KB | 140 KB | High | No | Cutaway Torrqe precision transmission core showing gearing, bearing elements, and compact motion architecture. | Above | Use crisp cutaway render; opaque WebP preferred. |
+| precision-motion-system-hero-placeholder.png | Hero | 1800 | 1200 | 3:2 | 90 KB | 140 KB | High | No | Torrqe precision motion system showing a BLDC motor, controller board, and gear-bearing transmission module. | Above | Placeholder reference for future broader motion-system hero render; should show BLDC motor, controller board, and gear-bearing/transmission module. |
 | usa-motion-systems-map.webp | Onshore the Transmission | 1400 | 760 | 35:19 | 60 KB | 90 KB | Medium | Yes unless immediately visible | Dotted map of the United States with the phrase America’s motion systems layer for critical machines. | Below/near | Can use transparency if map overlays paper texture. |
 | gear-bearing-motion-core.webp | Gearing and Bearing Core | 2000 | 1000 | 2:1 | 95 KB | 150 KB | Medium | Yes unless above fold | Torrqe gear-bearing motion core cutaway with ring gear, sun gear, planet rollers, integrated load path, and output axis. | Below | Leave room for CSS callouts or bake labels carefully. |
 | motion-stack-gear-bearing-core.webp | Torrqe Motion Stack | 800 | 560 | 10:7 | 60 KB | 90 KB | Low | Yes | Compact gear-bearing core for precision transmission and load support. | Below | Consistent lighting with other card assets. |
+| precision-motor-control-placeholder.png | Torrqe Motion Stack / Integrated Motion Platform | 720 | 504 | 10:7 | 50 KB | 80 KB | Low | Yes | Precision motor control electronics for low-speed BLDC motion. | Below | Placeholder reference for future BLDC controller / motor-control electronics image; same 10:7 card treatment as the rest of the stack. |
 | motion-stack-advanced-bearing-elements.webp | Torrqe Motion Stack | 800 | 560 | 10:7 | 55 KB | 85 KB | Low | Yes | Advanced metallic bearing elements for harsh-environment motion systems. | Below | Metallic parts should remain sharp after compression. |
 | motion-stack-superelastic-motion-materials.webp | Torrqe Motion Stack | 800 | 560 | 10:7 | 60 KB | 90 KB | Low | Yes | Superelastic motion material components including gears, races, bushings, and actuator internals. | Below | Prefer light background for card consistency. |
 | motion-stack-oil-free-surface-system.webp | Torrqe Motion Stack | 800 | 560 | 10:7 | 60 KB | 90 KB | Low | Yes | Oil-free surface system for low-maintenance precision motion assemblies. | Below | Keep orange bearing accent if available. |
@@ -31,9 +33,9 @@
 
 | Metric | Count / Weight |
 |---|---:|
-| Total number of image placeholders / metadata assets | 22 |
+| Total number of image placeholders / metadata assets | 24 |
 | Number above the fold | 1 |
 | Number below the fold | 19 |
 | Number used only for metadata/icons | 2 |
-| Estimated total image weight if all target sizes are met | 1,440 KB |
-| Estimated total image weight if all maximum sizes are used | 2,325 KB |
+| Estimated total image weight if all target sizes are met | 1,580 KB |
+| Estimated total image weight if all maximum sizes are used | 2,545 KB |

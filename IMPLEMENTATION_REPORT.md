@@ -8,6 +8,10 @@ Built a full-width static Torrqe public homepage with industrial black/off-white
 
 Updated the homepage metadata, image asset tracking, and visual alignment. The feature strip is now centered per item, the Onshore numbered columns have centered numbers/headings, the core visual and callouts are better balanced, the Motion Stack and Integrated Motion Platform headings are centered, the process section title and card icon/headings are centered, founder social links are orange/icon-styled, and the footer now uses a cleaner two-column link layout.
 
+## Five-Layer Motion Systems Update
+
+Updated the homepage positioning from transmission-only language to Torrqe as an American precision motion systems company built around five layers: motor control, zero-backlash transmission, advanced bearings, resilient / superelastic materials, and oil-free surfaces. The section order, industrial design language, color system, and overall layout rhythm were preserved.
+
 ## Files Changed
 
 - `index.html`
@@ -21,13 +25,13 @@ Updated the homepage metadata, image asset tracking, and visual alignment. The f
 ## Section-by-Section Summary
 
 1. Header / Navigation: Full-width dark overlay header with Torrqe wordmark, tagline, navigation links, mobile menu, and Contact button.
-2. Hero: Dark industrial split layout with large uppercase headline, orange `TRANSMISSIONS` emphasis, CTAs, and `hero-transmission-core.webp` placeholder.
+2. Hero: Dark industrial split layout with `ONSHORE THE MOTION SYSTEM.`, updated motion-stack copy, CTAs, and `precision-motion-system-hero-placeholder.png` placeholder.
 3. Feature Strip: Black full-width advantage strip with CSS icons and five platform claims.
-4. Onshore the Transmission: Off-white industrial section with supply-chain positioning, USA map placeholder, and three numbered columns.
+4. Onshore / Problem Section: Off-white industrial section repositioned around motion-stack bottlenecks, USA map placeholder, and three numbered columns.
 5. Gearing and Bearing in One Compact Motion Core: Dark section with large core placeholder, five simple callouts, and advantage strip.
-6. The Torrqe Motion Stack: Four image cards using the required motion stack filenames.
-7. Integrated Motion Platform: Two flow panels with code arrows and seven required small image placeholders.
-8. Target Systems: Dark 3-by-2 desktop grid of six target-system cards.
+6. The Torrqe Motion Stack: Five image cards covering precision motor control, gear-bearing core, advanced bearing elements, superelastic motion materials, and oil-free surface system.
+7. From Motor Control to Output Motion: Two flow panels connecting control, transmission, bearings, materials, and surfaces into compact motion modules.
+8. Target Systems: Dark 3-by-2 desktop grid of six target-system cards with updated vehicle and defense motion systems wording.
 9. Designed in America. Built for Scalable Production.: Three-step process section using CSS icons.
 10. We’re Building a World-Class Team: WestMag-style roles/founder layout with updated social links.
 11. Footer: Black footer with brand, center statement, nav links, social links, and modal contact trigger.
@@ -61,9 +65,17 @@ During rebase, three duplicate image files from a GitHub upload were found at th
 
 `hero-transmission-core.webp`, `usa-motion-systems-map.webp`, `gear-bearing-motion-core.webp`, `motion-stack-gear-bearing-core.webp`, `motion-stack-advanced-bearing-elements.webp`, `motion-stack-superelastic-motion-materials.webp`, `motion-stack-oil-free-surface-system.webp`, `integrated-platform-electric-motor.webp`, `integrated-platform-torrqe-drive.webp`, `integrated-platform-output-joint.webp`, `integrated-platform-gear-bearing-core.webp`, `integrated-platform-advanced-bearing-elements.webp`, `integrated-platform-superelastic-materials.webp`, `integrated-platform-oil-free-surface-system.webp`, `target-system-humanoids.webp`, `target-system-quadrupeds.webp`, `target-system-robotic-arms.webp`, `target-system-uav-payloads.webp`, `target-system-ev-subsystems.webp`, `target-system-defense-motion.webp`, `torrqe-og-preview.png`, `torrqe-favicon.png`.
 
+New placeholder image paths added for the five-layer motion systems update:
+
+- `images/precision-motion-system-hero-placeholder.png`, recommended replacement size `1800 x 1200 px`, aspect ratio `3:2`.
+- `images/precision-motor-control-placeholder.png`, recommended replacement size `720 x 504 px`, aspect ratio `10:7`.
+- Future optional map replacement: `images/americas-precision-motion-stack-map.webp`, recommended replacement size `1400 x 760 px`, aspect ratio `35:19`.
+
+Recommended five-card Motion Stack card image size: `720 x 504 px` (`10:7`) for a balanced five-column desktop layout, with tablet reducing to two columns and mobile to one column.
+
 ## SEO and Social Metadata
 
-Added the requested page title, primary meta description, canonical URL, Open Graph tags, Twitter card tags, favicon link, and Apple touch icon link.
+Added the requested page title, primary meta description, canonical URL, Open Graph tags, Twitter card tags, favicon link, and Apple touch icon link. SEO copy now reflects American precision motion systems rather than transmission-only positioning.
 
 - OG image filename: `images/torrqe-og-preview.png`
 - Favicon filename: `images/torrqe-favicon.png`
@@ -100,7 +112,7 @@ Header Contact opens the modal. Request Pilot Access opens the modal. Explore th
 
 ## Footer Layout Update
 
-The footer statement is displayed as three clean lines: `BUILT IN AMERICA.`, `DESIGNED TO OUTPERFORM.`, and `ENGINEERED TO ENDURE.` Footer navigation is split into two compact columns on desktop and centered on mobile. Footer Contact still opens the contact modal.
+The footer statement is displayed as three clean lines: `BUILT IN AMERICA.`, `CONTROLLED WITH PRECISION.`, and `ENGINEERED TO ENDURE.` Footer navigation is split into two compact columns on desktop and centered on mobile. Footer Contact still opens the contact modal.
 
 ## Mobile Alignment Update
 
@@ -136,6 +148,10 @@ Verification performed:
 - Confirmed metadata tags exist in the HTML head.
 - Confirmed no restricted terms or local absolute paths appear in browser-facing code.
 - Confirmed missing image files render as stable styled placeholders instead of broken visible images.
+- Confirmed five-layer update locally at 1280px desktop: new hero copy, updated value bar, five Motion Stack cards, four-step Motion Module flow, five-step Platform Architecture flow, updated Target Systems labels, updated founder copy, and updated footer copy.
+- Confirmed the five-card Motion Stack layout is centered and balanced on desktop, collapses to one column on mobile, and does not create horizontal overflow.
+- Confirmed mobile at 390px width keeps hero, feature strip, Onshore section, Motion Stack cards, Integrated Motion Platform panels, Target Systems, process cards, founder section, footer, and modal composition centered.
+- Confirmed new motor-control placeholder figures render without broken image requests; final replacement paths are documented as `images/precision-motion-system-hero-placeholder.png` and `images/precision-motor-control-placeholder.png`.
 
 ## Latest Commit
 

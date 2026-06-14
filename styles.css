@@ -243,6 +243,7 @@ p { font-size: 17px; line-height: 1.38; }
 .process h2 { font-size: clamp(28px, 2.45vw, 43px); white-space: nowrap; }
 .card-grid { display: grid; gap: 20px; }
 .card-grid.four { grid-template-columns: repeat(4, 1fr); }
+.card-grid.five { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; }
 .image-card, .flow-panel, .target-card, .process-grid article {
   border: 1px solid #b9b9b4;
   background: rgba(255,255,255,.32);
@@ -268,6 +269,7 @@ p { font-size: 17px; line-height: 1.38; }
 }
 .flow { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr); gap: 14px; align-items: center; text-align: center; }
 .flow-four { grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr); }
+.flow-five { grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr); gap: 10px; }
 .flow > div, .flow-panel, .image-card, .target-card { min-width: 0; }
 .asset figcaption { overflow-wrap: anywhere; }
 .flow i, .process-grid > i { color: var(--orange); font-size: 34px; font-style: normal; font-weight: 950; }
@@ -425,8 +427,8 @@ p { font-size: 17px; line-height: 1.38; }
   .hero-grid, .split, .core-grid, .panel-grid, .team-grid, .footer-inner { grid-template-columns: 1fr; }
   .hero-asset { margin-right: 0; }
   .feature-grid { grid-template-columns: repeat(2, 1fr); }
-  .card-grid.four, .target-grid { grid-template-columns: repeat(2, 1fr); }
-  .flow, .flow-four { grid-template-columns: 1fr; }
+  .card-grid.four, .card-grid.five, .target-grid { grid-template-columns: repeat(2, 1fr); }
+  .flow, .flow-four, .flow-five { grid-template-columns: 1fr; }
   .process-grid { grid-template-columns: 1fr; }
   .process-grid > i { transform: rotate(90deg); text-align: center; }
   .founder { border-left: 0; padding-left: 0; border-top: 1px solid #aaa; padding-top: 24px; }
@@ -453,7 +455,7 @@ p { font-size: 17px; line-height: 1.38; }
   .flow-panel h3 { justify-content: center; gap: 6px; }
   .flow-panel h3 span { display: block; width: 100%; }
   .button { width: min(100%, 330px); }
-  .feature-grid, .card-grid.four, .target-grid, .number-grid, .advantage-strip { grid-template-columns: 1fr; }
+  .feature-grid, .card-grid.four, .card-grid.five, .target-grid, .number-grid, .advantage-strip { grid-template-columns: 1fr; }
   .feature-grid article {
     grid-template-columns: 1fr;
     justify-items: center;

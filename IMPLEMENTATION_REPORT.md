@@ -55,7 +55,7 @@ This is a static project, so final assets should live in `/Users/amaeteumanah/De
 
 ## Image Path and Git Tracking Update
 
-All browser-facing image references use production-safe relative paths such as `images/hero-transmission-core.webp`, `images/torrqe-og-preview.png`, and `images/torrqe-favicon.png`. A local reference scan across `index.html`, `styles.css`, and `script.js` found 22 image paths and 0 missing files.
+All browser-facing image references use production-safe relative paths such as `images/hero-transmission-core.webp`, `images/torrqe-og-preview.webp`, and `images/torrqe-favicon.png`. A local reference scan across `index.html`, `styles.css`, and `script.js` found 22 image paths and 0 missing files.
 
 The final image files were present locally but were not yet tracked by Git. `git check-ignore -v images/*` returned no ignored files, so `git add -f images/*` was not needed. The image files are staged normally for the next commit. `.DS_Store` files are excluded via `.gitignore`.
 
@@ -63,7 +63,7 @@ During rebase, three duplicate image files from a GitHub upload were found at th
 
 ## Exact Image Filenames Expected
 
-`hero-transmission-core.webp`, `usa-motion-systems-map.webp`, `gear-bearing-motion-core.webp`, `motion-stack-gear-bearing-core.webp`, `motion-stack-advanced-bearing-elements.webp`, `motion-stack-superelastic-motion-materials.webp`, `motion-stack-oil-free-surface-system.webp`, `integrated-platform-electric-motor.webp`, `integrated-platform-torrqe-drive.webp`, `integrated-platform-output-joint.webp`, `integrated-platform-gear-bearing-core.webp`, `integrated-platform-advanced-bearing-elements.webp`, `integrated-platform-superelastic-materials.webp`, `integrated-platform-oil-free-surface-system.webp`, `target-system-humanoids.webp`, `target-system-quadrupeds.webp`, `target-system-robotic-arms.webp`, `target-system-uav-payloads.webp`, `target-system-ev-subsystems.webp`, `target-system-defense-motion.webp`, `torrqe-og-preview.png`, `torrqe-favicon.png`.
+`hero-transmission-core.webp`, `usa-motion-systems-map.webp`, `gear-bearing-motion-core.webp`, `motion-stack-gear-bearing-core.webp`, `motion-stack-advanced-bearing-elements.webp`, `motion-stack-superelastic-motion-materials.webp`, `motion-stack-oil-free-surface-system.webp`, `integrated-platform-electric-motor.webp`, `integrated-platform-torrqe-drive.webp`, `integrated-platform-output-joint.webp`, `integrated-platform-gear-bearing-core.webp`, `integrated-platform-advanced-bearing-elements.webp`, `integrated-platform-superelastic-materials.webp`, `integrated-platform-oil-free-surface-system.webp`, `target-system-humanoids.webp`, `target-system-quadrupeds.webp`, `target-system-robotic-arms.webp`, `target-system-uav-payloads.webp`, `target-system-ev-subsystems.webp`, `target-system-defense-motion.webp`, `torrqe-og-preview.webp`, `torrqe-favicon.png`.
 
 New placeholder image paths added for the five-layer motion systems update:
 
@@ -77,7 +77,7 @@ Recommended five-card Motion Stack card image size: `720 x 504 px` (`10:7`) for 
 
 Added the requested page title, primary meta description, canonical URL, Open Graph tags, Twitter card tags, favicon link, and Apple touch icon link. SEO copy now reflects American precision motion systems rather than transmission-only positioning.
 
-- OG image filename: `images/torrqe-og-preview.png`
+- OG image filename: `images/torrqe-og-preview.webp`
 - Favicon filename: `images/torrqe-favicon.png`
 - Canonical URL: `https://www.torrqe.com/`
 

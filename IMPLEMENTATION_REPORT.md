@@ -25,7 +25,7 @@ Updated the homepage positioning from transmission-only language to Torrqe as an
 ## Section-by-Section Summary
 
 1. Header / Navigation: Full-width dark overlay header with Torrqe wordmark, tagline, navigation links, mobile menu, and Contact button.
-2. Hero: Dark industrial split layout with `ONSHORE THE MOTION SYSTEM.`, updated motion-stack copy, CTAs, and `precision-motion-system-hero-placeholder.png` placeholder.
+2. Hero: Dark industrial split layout with `ONSHORE THE MOTION SYSTEM.`, updated motion-stack copy, CTAs, and `precision-motion-system-hero-placeholder.webp` placeholder.
 3. Feature Strip: Black full-width advantage strip with CSS icons and five platform claims.
 4. Onshore / Problem Section: Off-white industrial section repositioned around motion-stack bottlenecks, USA map placeholder, and three numbered columns.
 5. Gearing and Bearing in One Compact Motion Core: Dark section with large core placeholder, five simple callouts, and advantage strip.
@@ -67,8 +67,8 @@ During rebase, three duplicate image files from a GitHub upload were found at th
 
 New placeholder image paths added for the five-layer motion systems update:
 
-- `images/precision-motion-system-hero-placeholder.png`, recommended replacement size `1800 x 1200 px`, aspect ratio `3:2`.
-- `images/precision-motor-control-placeholder.png`, recommended replacement size `720 x 504 px`, aspect ratio `10:7`.
+- `images/precision-motion-system-hero-placeholder.webp`, recommended replacement size `1800 x 1200 px`, aspect ratio `3:2`.
+- `images/precision-motor-control-placeholder.webp`, recommended replacement size `720 x 504 px`, aspect ratio `10:7`.
 - Future optional map replacement: `images/americas-precision-motion-stack-map.webp`, recommended replacement size `1400 x 760 px`, aspect ratio `35:19`.
 
 Recommended five-card Motion Stack card image size: `720 x 504 px` (`10:7`) for a balanced five-column desktop layout, with tablet reducing to two columns and mobile to one column.
@@ -151,7 +151,7 @@ Verification performed:
 - Confirmed five-layer update locally at 1280px desktop: new hero copy, updated value bar, five Motion Stack cards, four-step Motion Module flow, five-step Platform Architecture flow, updated Target Systems labels, updated founder copy, and updated footer copy.
 - Confirmed the five-card Motion Stack layout is centered and balanced on desktop, collapses to one column on mobile, and does not create horizontal overflow.
 - Confirmed mobile at 390px width keeps hero, feature strip, Onshore section, Motion Stack cards, Integrated Motion Platform panels, Target Systems, process cards, founder section, footer, and modal composition centered.
-- Confirmed new motor-control placeholder figures render without broken image requests; final replacement paths are documented as `images/precision-motion-system-hero-placeholder.png` and `images/precision-motor-control-placeholder.png`.
+- Confirmed new motor-control placeholder figures use WebP replacement paths: `images/precision-motion-system-hero-placeholder.webp` and `images/precision-motor-control-placeholder.webp`.
 
 ## Latest Commit
 

@@ -157,6 +157,13 @@ p { font-size: 17px; line-height: 1.38; }
 .number-grid b, .process-grid b { display: block; color: var(--orange); font-size: 22px; text-transform: uppercase; margin-bottom: 8px; }
 .number-grid b, .number-grid h3 { text-align: center; }
 .number-grid p, .image-card p, .target-card p, .role-list { font-size: 14px; font-weight: 700; }
+.number-grid p,
+.image-card p,
+.target-card h3,
+.target-card p,
+.process-grid article p {
+  text-align: center;
+}
 
 .asset {
   position: relative;
@@ -220,7 +227,7 @@ p { font-size: 17px; line-height: 1.38; }
 .mobile-callouts { display: none; }
 .advantage-strip { display: grid; grid-template-columns: repeat(5, 1fr); border-top: 1px solid #333; margin-top: 24px; }
 .advantage-strip span { display: flex; align-items: center; justify-content: center; gap: 12px; padding: 20px 12px; text-transform: uppercase; font-weight: 950; font-size: 13px; border-right: 1px solid #333; }
-.advantage-strip .icon { width: 28px; height: 28px; }
+.advantage-strip .icon { width: 28px; height: 28px; color: var(--orange); }
 
 .stack-section, .platform-section, .process, .team { padding: 28px 0; }
 .section-lede { max-width: 900px; font-weight: 700; margin-bottom: 22px; }
@@ -249,6 +256,8 @@ p { font-size: 17px; line-height: 1.38; }
   align-items: baseline;
   gap: 14px;
   flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
 .flow-panel h3 span {
   color: #555;
@@ -265,6 +274,7 @@ p { font-size: 17px; line-height: 1.38; }
 .flow b { display: block; margin-top: 8px; text-transform: uppercase; font-size: 12px; }
 
 .targets { padding: 28px 0; background: linear-gradient(180deg, #0a0a0a, #161616); }
+.targets h2 { text-align: center; }
 .target-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .target-card { background: #111; border-color: #555; color: white; position: relative; }
 .target-card .asset::before { background: radial-gradient(circle at 48% 42%, rgba(255,61,0,.26), transparent 20%), repeating-linear-gradient(135deg, rgba(255,255,255,.06) 0 1px, transparent 1px 12px); }
